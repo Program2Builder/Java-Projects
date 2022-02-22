@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="New_Account.css">
+	    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sanshttps://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
+    </head>
+    <body>
+        <div class="bgimage">
+            <div class="menu">
+                <div class="leftmenu">
+                    <h4>STATE BANK OF INDIA</h4>
+                </div>
+                <div class="rightmenu">
+                    <ul>
+                        <li><a href="After_Home.html">Home</a></li>
+                        <li><a href="#"  class="active">New Account</a></li>
+                        <li><a href="Debit.html">Debit</a></li>
+                        <li><a href="Credit.html">Credit</a></li>
+                        <li><a href="Transection_History.html">Transaction History</a></li>
+                        <li><a href="Check_Balance.html">Check Balence</a></li>
+                        <li><a href="Transfar.html">Transfar</a></li>
+                        <li><a href="Change_Password.html">Change Password</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div align="center" class="set">
+                <form action="NewAccount" method="post">
+				<h1><font color="white">Name</font></h1>
+				<input type="text" class="name"  name="name" id="" placeholder="Name" required>
+				<br><br>
+				<h1><font color="white">Father's Name</font></h1>
+				<input type="text" class="name" name="fname" id="" placeholder="Father's Name" required>
+				<br><br>
+				<h1><font color="white">Adhaar No.</font></h1>
+				<input type="text" class="name" name="adhaar" id="" placeholder="Adhaar" required>
+				<br><br>
+				<h1><font color="white">Email</font></h1>
+				<input type="email" class="name" name="mail" id="" placeholder="Email" required>
+				<br><br>
+				<h1><font color="white">Contact no.</font></h1>
+				<input type="tel" class="name" name="contact" id="" placeholder="Mobile" required>
+				<br><br>
+				<h1><font color="white">Balance</font></h1>
+				<input type="text" class="name" name="dipbalance" id="" placeholder="Amount" required>
+				<h1><font color="white">Gender</font></h1>
+				<select name="gender" id="" class="gen">
+					<option>Gender</option>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Secret</option>
+				</select>
+				<br><br>
+				<h1><font color="white">Account type</font></h1>
+				<select name="actype" id="" class="gen1">
+					<option>Current</option>
+					<option>Saving</option>
+				</select>
+				<br><br>
+				<input type="submit" class="btn" name="" id="" value="Sign up">
+				<br><br>
+				<input type="reset" class="btn" name="" id="" value="Reset">
+			</form>
+            </div>
+        </div>
+    </body>
+</html>

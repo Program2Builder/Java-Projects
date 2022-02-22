@@ -1,0 +1,59 @@
+<web-app>
+    <welcome-file-list>
+        <welcome-file>Home.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Create Account</servlet-name>
+        <servlet-class>AccountNo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Create Account</servlet-name>
+        <url-pattern>/NewAccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Transection</servlet-name>
+        <servlet-class>Transection_History_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Transection</servlet-name>
+        <url-pattern>/showtables</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Debit</servlet-name>
+        <servlet-class>Debit_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Debit</servlet-name>
+        <url-pattern>/debit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Credit</servlet-name>
+        <servlet-class>Credit_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Credit</servlet-name>
+        <url-pattern>/credit</url-pattern>
+    </servlet-mapping>
+</web-app>
